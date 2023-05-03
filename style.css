@@ -1,16 +1,42 @@
-body {
-    background-color: rgb(23, 71, 0);
+body,
+html,body {
+    height: 100%;
 }
 
+body {
+    margin: 0%;
+    background-color: #cac8c4;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./assets/background.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h1,
 p {
     color: white;
-    font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 900;
+    
 }
 
-#content-container {
-    margin: 2cm;
+h1 {
+    padding-top: 5%;
+    margin-top: 0%;
+    position: relative;
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
 }
