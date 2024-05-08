@@ -1,0 +1,662 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-05-08T06:11:06Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295713927",
+        "name": "Farids Kiosk",
+        "shop": "kiosk",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6184446,
+          51.9660934
+        ]
+      },
+      "id": "node/295713927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/301593431",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "48143",
+        "addr:street": "Neubrückenstraße",
+        "name": "Asis' Kiosk",
+        "opening_hours": "Mo-Fr 08:00-24:00;Sa-Su 10:00-24:00",
+        "operator": "DHL",
+        "post_office": "yes",
+        "shop": "kiosk",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6296084,
+          51.9663878
+        ]
+      },
+      "id": "node/301593431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/628745327",
+        "addr:city": "Münster",
+        "addr:housenumber": "45",
+        "addr:postcode": "48153",
+        "addr:street": "Hafenstraße",
+        "name": "Kiosk 24",
+        "name:de": "Kiosk 24",
+        "opening_hours": "Mo-Tu 08:00-02:00; We 08:00-03:00; Fr-Sa 08:00-05:00; Su 08:00-02:00",
+        "phone": "+49 251 4816404",
+        "shop": "kiosk",
+        "website": "https://www.kippenwegbierundyallah.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6322772,
+          51.9539827
+        ]
+      },
+      "id": "node/628745327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/629637881",
+        "addr:city": "Münster",
+        "addr:housenumber": "45",
+        "addr:postcode": "48151",
+        "addr:street": "Inselbogen",
+        "name": "Grüne Insel",
+        "note": "Postfiliale (im Einzelhandel)",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:30; Su 11:00-22:00",
+        "phone": "+49 251 39486662",
+        "product": "bus tickets",
+        "shop": "kiosk",
+        "source": "knowledge",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6143221,
+          51.939805
+        ]
+      },
+      "id": "node/629637881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/644547055",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "49",
+        "addr:postcode": "48151",
+        "addr:street": "Scharnhorststraße",
+        "contact:email": "info@bauer-melchior.de",
+        "contact:phone": "+49 2547 7139",
+        "contact:website": "www.bauer-melchior.de",
+        "name": "Bauer Melchior",
+        "old_name": "Pluggendorfer Marktplatz",
+        "opening_hours": "Mo-Fr 09:00-13:00,15:00-18:00; Sa 09:00-13:00",
+        "post_office": "post_partner",
+        "post_office:brand": "Hermes Paketshop",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6140497,
+          51.9530568
+        ]
+      },
+      "id": "node/644547055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667936173",
+        "check_date": "2023-10-01",
+        "name": "myKiosk",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-21:00; Su 11:00-20:00",
+        "shop": "kiosk",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6342059,
+          51.9576392
+        ]
+      },
+      "id": "node/667936173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1396621263",
+        "shop": "kiosk",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.630797,
+          51.9522241
+        ]
+      },
+      "id": "node/1396621263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547602971",
+        "addr:housenumber": "63",
+        "addr:street": "Hammer Straße",
+        "name": "Zigarren Fincke",
+        "official_name": "Wilhelm Fincke Tabakwaren",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:15",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6250323,
+          51.9503671
+        ]
+      },
+      "id": "node/1547602971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1557102060",
+        "addr:city": "Münster",
+        "addr:housename": "Hansa Kiosk",
+        "addr:housenumber": "1",
+        "addr:postcode": "48155",
+        "addr:street": "Hansaring",
+        "contact:mobile": "+49 157 79704364",
+        "name": "Hansa Kiosk",
+        "opening_hours": "Mo-Th 11:00-23:00, Fr 11:00-01:00, Sa 12:00-01:00, Su 12:00-23:00",
+        "shop": "kiosk",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6370532,
+          51.9530639
+        ]
+      },
+      "id": "node/1557102060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1582924227",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "37",
+        "addr:postcode": "48145",
+        "addr:street": "Sternstraße",
+        "name": "Nachtfalken",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-17:00; Su 14:00-19:00; PH 14:00-19:00",
+        "shop": "kiosk",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.64456,
+          51.9588837
+        ]
+      },
+      "id": "node/1582924227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1583561861",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Tante August",
+        "opening_hours": "Mo-Th 10:00-18:00; Fr-Su 10:00-20:00",
+        "shop": "kiosk",
+        "website": "http://www.tanteaugust.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.625665,
+          51.9470003
+        ]
+      },
+      "id": "node/1583561861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2007018368",
+        "addr:city": "Münster",
+        "addr:housenumber": "105",
+        "addr:postcode": "48151",
+        "addr:street": "Sentmaringer Weg",
+        "name": "Akbars Kiosk",
+        "open": "Mo-Fr 8:00-12:00, 15:00-21:00;Sa 8:30-21:00;Su 10:00-21:00",
+        "opening_hours": "Mo-Fr 08:00-12:00,15:00-20:00; Sa 08:30-18:30; Su 13:30-18:30",
+        "product": "bus tickets",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6200304,
+          51.9450695
+        ]
+      },
+      "id": "node/2007018368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2345418721",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "48143",
+        "addr:street": "Bült",
+        "name": "Allerlei",
+        "post_office": "post_partner",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6303057,
+          51.9638783
+        ]
+      },
+      "id": "node/2345418721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2376384873",
+        "man_made": "surveillance",
+        "name": "Aegidii-Trinkhalle",
+        "opening_hours": "Mo-Su 12:00-20:00",
+        "shop": "kiosk",
+        "surveillance": "indoor",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6207308,
+          51.9579262
+        ]
+      },
+      "id": "node/2376384873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2673008724",
+        "name": "West Lotto",
+        "shop": "kiosk",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6302233,
+          51.9441628
+        ]
+      },
+      "id": "node/2673008724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3158129206",
+        "check_date:opening_hours": "2022-07-27",
+        "name": "Lammerding",
+        "opening_hours": "Mo,Tu,Th 09:00-19:00; We 09:00-22:00; Fr,Sa 09:00-24:00; Su off",
+        "product": "bus tickets",
+        "shop": "kiosk",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6178851,
+          51.9667185
+        ]
+      },
+      "id": "node/3158129206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3788317795",
+        "name": "Bremer Kiosk",
+        "opening_hours": "Mo-Fr 10:30-24:00, Sa 10:30-02:00, Su 10:30-23:00",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6383288,
+          51.9582106
+        ]
+      },
+      "id": "node/3788317795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4164158830",
+        "check_date:opening_hours": "2023-11-18",
+        "name": "Lotto Toto",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:30-18:30",
+        "product": "bus tickets",
+        "shop": "kiosk",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6332592,
+          51.960197
+        ]
+      },
+      "id": "node/4164158830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4173179496",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "48155",
+        "addr:street": "Hansaring",
+        "name": "Kiosk Ecke",
+        "opening_hours": "Mo-Th 08:30-00:00; Fr 08:30-03:00; Sa 09:00-03:00; Su 11:00-00:00",
+        "shop": "kiosk",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6367808,
+          51.952757
+        ]
+      },
+      "id": "node/4173179496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4312765089",
+        "name": "Kiosk im Ostviertel II",
+        "old_name": "Copy Casa Münster",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6451132,
+          51.9557946
+        ]
+      },
+      "id": "node/4312765089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4689718892",
+        "check_date:opening_hours": "2023-12-18",
+        "name": "A. Lieder",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6271978,
+          51.9583525
+        ]
+      },
+      "id": "node/4689718892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5220267783",
+        "addr:city": "Münster",
+        "addr:housenumber": "39",
+        "addr:postcode": "48155",
+        "addr:street": "Hansaring",
+        "name": "Hafen Kiosk",
+        "opening_hours": "Mo-Th 15:00-23:00; Sa 12:00-03:00; Su 12:00-23:00; Fr 15:00-03:00",
+        "phone": "+4915115149979",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6417502,
+          51.9533743
+        ]
+      },
+      "id": "node/5220267783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6737232432",
+        "name": "Südviertel Kiosk",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-15:00",
+        "post_office": "post_partner",
+        "post_office:brand": "DHL Paketshop",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6246307,
+          51.9492297
+        ]
+      },
+      "id": "node/6737232432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6738976210",
+        "check_date": "2024-03-23",
+        "check_date:opening_hours": "2023-01-03",
+        "name": "City Kiosk Münster",
+        "opening_hours:signed": "no",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6371154,
+          51.9556044
+        ]
+      },
+      "id": "node/6738976210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8074904453",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "80",
+        "addr:postcode": "48145",
+        "addr:street": "Warendorfer Straße",
+        "name": "Tabak & Zeitungen",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6490993,
+          51.9642281
+        ]
+      },
+      "id": "node/8074904453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8651846703",
+        "check_date:opening_hours": "2023-12-16",
+        "name": "Kiosk am Bahnhof",
+        "opening_hours": "Mo-Sa 09:00-21:00",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.633476,
+          51.9570574
+        ]
+      },
+      "id": "node/8651846703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9817273456",
+        "addr:city": "Münster",
+        "addr:country": "DE",
+        "addr:housenumber": "51",
+        "addr:postcode": "48145",
+        "addr:street": "Warendorfer Straße",
+        "contact:facebook": "https://www.facebook.com/kiosk24/",
+        "name": "Kiosk24",
+        "opening_hours": "Mo-Fr 07:30-22:00; Sa 09:00-22:00; Su 10:00-22:00",
+        "shop": "kiosk",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.643031,
+          51.9620733
+        ]
+      },
+      "id": "node/9817273456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10043421029",
+        "name": "7 days",
+        "note": "Auch eine Bäckerei",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "kiosk",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6165456,
+          51.9539713
+        ]
+      },
+      "id": "node/10043421029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10830025610",
+        "name": "Kiosk XL",
+        "opening_hours": "Mo-Tu 12:00-23:00; We-Sa 12:00-24:00; Su,PH off",
+        "opening_hours:signed": "yes",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:diners_club": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:unionpay": "yes",
+        "payment:visa": "yes",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6207271,
+          51.9651065
+        ]
+      },
+      "id": "node/10830025610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10980688877",
+        "check_date": "2023-10-20",
+        "name": "Promenaden-Kiosk",
+        "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-23:00; Su 12:00-20:30",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6303422,
+          51.9580965
+        ]
+      },
+      "id": "node/10980688877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409887021",
+        "addr:housenumber": "104",
+        "addr:street": "Wolbecker Straße",
+        "name": "Kiosk KIO",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 09:30-22:00",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6479217,
+          51.9550209
+        ]
+      },
+      "id": "node/11409887021"
+    }
+  ]
+}
