@@ -31,14 +31,14 @@ var TravellingSalesman = /** @class */ (function () {
         for (var _i = 0, _a = this.cities; _i < _a.length; _i++) {
             var city = _a[_i];
             if (!currentTour.includes(city)) {
-                for (var i = 0; i < currentTour.length; i++) {
-                    var prevCity = currentTour[i];
-                    var nextCity = currentTour[(i + 1) % currentTour.length];
+                for (var i = 0; i <= currentTour.length; i++) {
+                    var prevCity = currentTour[i === 0 ? currentTour.length - 1 : i - 1];
+                    var nextCity = currentTour[i === currentTour.length ? 0 : i];
                     var increase = this.euclideanDistance(prevCity, city) + this.euclideanDistance(city, nextCity) - this.euclideanDistance(prevCity, nextCity);
                     if (increase < minIncrease) {
                         minIncrease = increase;
                         bestInsertedCity = city;
-                        bestInsertPosition = i + 1; // Insert after prevCity
+                        bestInsertPosition = i;
                     }
                 }
             }

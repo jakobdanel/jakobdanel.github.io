@@ -55,28 +55,29 @@ class TravellingSalesman {
         let minIncrease = Infinity;
         let bestInsertedCity: Point | undefined;
         let bestInsertPosition = -1;
-
+    
         for (const city of this.cities) {
             if (!currentTour.includes(city)) {
-                for (let i = 0; i < currentTour.length; i++) {
-                    const prevCity = currentTour[i];
-                    const nextCity = currentTour[(i + 1) % currentTour.length];
+                for (let i = 0; i <= currentTour.length; i++) {
+                    const prevCity = currentTour[i === 0 ? currentTour.length - 1 : i - 1];
+                    const nextCity = currentTour[i === currentTour.length ? 0 : i];
                     const increase = this.euclideanDistance(prevCity, city) + this.euclideanDistance(city, nextCity) - this.euclideanDistance(prevCity, nextCity);
                     if (increase < minIncrease) {
                         minIncrease = increase;
                         bestInsertedCity = city;
-                        bestInsertPosition = i + 1; // Insert after prevCity
+                        bestInsertPosition = i;
                     }
                 }
             }
         }
-
+    
         if (!bestInsertedCity) {
             throw new Error("No city can be inserted");
         }
-
+    
         return { insertedCity: bestInsertedCity, position: bestInsertPosition };
     }
+    
 
     public solve(startCityId: string): Point[] {
         const startCity = this.cities.find(city => city.id === startCityId);

@@ -12,6 +12,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Function to add markers to the map
 function addMarkers(kiosks) {
+    let n = kiosks.length;
     kiosks.forEach(function (kiosk, index) {
         var coordinates = kiosk.geometry.coordinates.reverse(); // Leaflet uses [lat, lng] format
         var name = kiosk.properties.name || 'Unnamed Kiosk'; // Check if kiosk has a name
@@ -22,10 +23,10 @@ function addMarkers(kiosks) {
             .bindPopup('<b>' + name + '</b><br>' + getKioskInfo(kiosk.properties));
 
         // Add a label showing the index of the marker with custom styling
-        let position = kiosk.properties.position;
+        let position = n - kiosk.properties.position;
         var label = L.divIcon({
             className: 'marker-label',
-            html: '<span style="font-size: 20px; color: red; bold;">' + (position+1).toString() + '</span>'
+            html: '<span style="font-size: 20px; color: red; bold;">' + position.toString() + '</span>'
         });
         marker.setIcon(label);
     });
@@ -60,6 +61,7 @@ fetch('kiosks_filtered.geojson')
         }
         console.log(data);
         addMarkers(data.features);
+        
     })
     .catch(error => {
         console.error('Error fetching data:', error);
