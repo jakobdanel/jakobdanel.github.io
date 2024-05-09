@@ -101,34 +101,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/644547055",
-        "addr:city": "Münster",
-        "addr:country": "DE",
-        "addr:housenumber": "49",
-        "addr:postcode": "48151",
-        "addr:street": "Scharnhorststraße",
-        "contact:email": "info@bauer-melchior.de",
-        "contact:phone": "+49 2547 7139",
-        "contact:website": "www.bauer-melchior.de",
-        "name": "Bauer Melchior",
-        "old_name": "Pluggendorfer Marktplatz",
-        "opening_hours": "Mo-Fr 09:00-13:00,15:00-18:00; Sa 09:00-13:00",
-        "post_office": "post_partner",
-        "post_office:brand": "Hermes Paketshop",
-        "shop": "kiosk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6140497,
-          51.9530568
-        ]
-      },
-      "id": "node/644547055"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/667936173",
         "check_date": "2023-10-01",
         "name": "myKiosk",
@@ -144,42 +116,6 @@
         ]
       },
       "id": "node/667936173"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1396621263",
-        "shop": "kiosk",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.630797,
-          51.9522241
-        ]
-      },
-      "id": "node/1396621263"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1547602971",
-        "addr:housenumber": "63",
-        "addr:street": "Hammer Straße",
-        "name": "Zigarren Fincke",
-        "official_name": "Wilhelm Fincke Tabakwaren",
-        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:15",
-        "shop": "kiosk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6250323,
-          51.9503671
-        ]
-      },
-      "id": "node/1547602971"
     },
     {
       "type": "Feature",
@@ -227,29 +163,6 @@
         ]
       },
       "id": "node/1582924227"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/1583561861",
-        "amenity": "cafe",
-        "cuisine": "coffee_shop",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "Tante August",
-        "opening_hours": "Mo-Th 10:00-18:00; Fr-Su 10:00-20:00",
-        "shop": "kiosk",
-        "website": "http://www.tanteaugust.de",
-        "wheelchair": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.625665,
-          51.9470003
-        ]
-      },
-      "id": "node/1583561861"
     },
     {
       "type": "Feature",
@@ -315,23 +228,6 @@
         ]
       },
       "id": "node/2376384873"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/2673008724",
-        "name": "West Lotto",
-        "shop": "kiosk",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6302233,
-          51.9441628
-        ]
-      },
-      "id": "node/2673008724"
     },
     {
       "type": "Feature",
@@ -412,23 +308,6 @@
         ]
       },
       "id": "node/4173179496"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4312765089",
-        "name": "Kiosk im Ostviertel II",
-        "old_name": "Copy Casa Münster",
-        "shop": "kiosk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6451132,
-          51.9557946
-        ]
-      },
-      "id": "node/4312765089"
     },
     {
       "type": "Feature",
@@ -529,26 +408,6 @@
         ]
       },
       "id": "node/8074904453"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/8651846703",
-        "check_date:opening_hours": "2023-12-16",
-        "name": "Kiosk am Bahnhof",
-        "opening_hours": "Mo-Sa 09:00-21:00",
-        "payment:credit_cards": "no",
-        "payment:debit_cards": "no",
-        "shop": "kiosk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.633476,
-          51.9570574
-        ]
-      },
-      "id": "node/8651846703"
     },
     {
       "type": "Feature",
